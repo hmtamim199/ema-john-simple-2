@@ -1,0 +1,40 @@
+.pd-container{
+  width: 300px;
+  height: 510px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  margin: 16px;
+  position: relative;
+}
+
+.pd-container img{
+  width: 286px;
+  height: 286px;
+  margin: 7px;
+}
+.pd-info{
+  margin: 7px;
+  font-weight: 500;
+}
+.pd-name{
+  font-family: 'Lato';
+  font-weight: 400;
+  font-style: normal;
+  line-height: 25px;
+  font-size: 21px;
+}
+.btn-pd{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  background-color:  rgba(255, 224, 179, 1)
+  
+}
+.btn-pd:hover{
+  background-color: orange;
+}
